@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+.FormBisection
+{
+    
+    margin: 20px;
+}
+.input-display{
+    display: flex;
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-fx-display{
+    padding:0 30px;
+}
+.input-fx{
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    padding: 10px;
+}
+.input-fx:focus{
+    outline: none;
+}
+.input-xr{
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    padding: 10px;
+}
+.input-xr:focus{
+    outline: none;
+}
+.input-xl{
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    padding: 10px;
+}
+.input-xl:focus{
+    outline: none;
+}
+
+.input-xr-display{
+    padding:0 30px;
+
+}
+.input-xl-display{
+    padding:0 30px;
+    
+}
+
+.input-x-display{
+    padding:0 30px;
+}
+.input-x{
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    padding: 10px;
+    
+}
+.input-x:focus{
+    outline: none;
+}
+
+/* button */
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 0 20px;
+}
+.btnSubmit{
+    width: 100px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px ;
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.btnSubmit:hover{
+    background-color: aquamarine;
+    transition: background-color 0.6s linear;
+}
+
+.btnSubmit:disabled{
+    background-color: antiquewhite;
+    cursor: not-allowed;
+}
+
+/* Table */
+.TableforBiesection
+{
+    display: grid;
+    text-align: center;
+    margin: 30px;
+}
+table, th, td {
+    border: 1px solid gray;
+    padding: 10px;
+  }
+th{
+    background-color: aquamarine;
+}

@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+.Home-Display{
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Table */
+.TableforBiesection
+{
+    display: grid;
+    text-align: center;
+    margin: 30px;
+}
+table, th, td {
+    border: 1px solid gray;
+    padding: 10px;
+  }
+th{
+    background-color: aquamarine;
+}

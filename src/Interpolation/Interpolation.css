@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.display_input_number{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 40px;
+}
+
+.input_number{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 0%;
+  margin: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.input_number:focus{
+  background-color: #d37e0c;
+  outline: none;
+  transition: background-color 0.3s linear;
+}
+
+  .display-Data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3px;
+  }
+  
+  .input-DataA{
+    width: 100px;
+    height: 40px;
+    padding: 0%;
+  }
+  .input-DataB{
+    width: 100px;
+    height: 40px;
+    padding: 0%;
+  }
+ 
+  
+  .td-DataA{
+    border: none;
+  }
+  .td-DataB{
+    border: none;
+  }
+  .td-Data-A{
+    border: none;
+  }
+  .td-Data-B{
+    border: none;
+  }
+  
+
+.table-DataA{
+  text-align: center;
+}
+.table-DataB{
+  text-align: center;
+}
+
+.display-input-value
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.label-value
+{
+  margin: 10px;
+}
+.input-value{
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  padding: 0%;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.input-value:focus{
+  background-color: #d37e0c;
+  outline: none;
+  transition: background-color 0.3s linear;
+}
+
+.display-result{
+  
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+
+}
+.result{
+  border: 2px solid rgb(33, 35, 33);
+  border-radius: 5px;
+  height: 50px;
+  width: 300px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
